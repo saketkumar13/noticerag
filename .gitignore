@@ -101,6 +101,9 @@ rapidocr_models/
 # ------------------------------------------------------------------------------
 # 8. Data Ingestion, PDFs, OCR & Generated Artifacts
 # ------------------------------------------------------------------------------
+# Ignore all noticerag local data
+noticerag/data/
+
 # Raw downloaded PDFs from NITA notice board
 **/data/pdfs/
 *.pdf
@@ -134,8 +137,9 @@ rapidocr_models/
 # ------------------------------------------------------------------------------
 # 9. Whitelist Essential Test Fixtures & Documentation
 # ------------------------------------------------------------------------------
-!**/data/evaluation/
-!**/data/evaluation/retrieval_test_set.json
+!data/evaluation/
+!data/evaluation/retrieval_test_set.json
 !docs/architecture.png
 docs/sample_reference.png
+
 

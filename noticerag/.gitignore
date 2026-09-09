@@ -101,34 +101,37 @@ rapidocr_models/
 # ------------------------------------------------------------------------------
 # 8. Data Ingestion, PDFs, OCR & Generated Artifacts
 # ------------------------------------------------------------------------------
+# Ignore all noticerag local data
+data/
+
 # Raw downloaded PDFs from NITA notice board
-data/pdfs/
+**/data/pdfs/
 *.pdf
 
 # OCR extracted text and intermediate structured outputs
-data/extracted_text/
-data/metadata/
-data/chunks/
-data/checkpoints/
+**/data/extracted_text/
+**/data/metadata/
+**/data/chunks/
+**/data/checkpoints/
 
 # Vector storage (Qdrant) & Lexical Indexes (BM25)
-data/qdrant_db/
-data/indexes/
+**/data/qdrant_db/
+**/data/indexes/
 *.pkl
 *.pickle
 *.parquet
 
 # SQLite databases & journals
-data/*.db
-data/*.db-journal
+**/data/*.db
+**/data/*.db-journal
 *.db
 *.db-journal
 *.sqlite
 *.sqlite3
 
 # Generated execution logs & reports
-data/logs/
-data/reports/
+**/data/logs/
+**/data/reports/
 *.log
 
 # ------------------------------------------------------------------------------
@@ -137,3 +140,6 @@ data/reports/
 !data/evaluation/
 !data/evaluation/retrieval_test_set.json
 !docs/architecture.png
+docs/sample_reference.png
+
+
