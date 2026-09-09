@@ -1,0 +1,11 @@
+scrapling>=0.3.14
+requests>=2.31.0
+urllib3>=2.0.0
+lxml>=5.0.0
+pytest>=8.0.0
+pypdf>=5.0.0
+pypdfium2>=5.13.0
+rapidocr-onnxruntime>=1.4.4
+pytesseract>=0.3.13
+pillow>=10.0.0
+opencv-python>=4.10.0
