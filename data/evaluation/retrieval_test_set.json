@@ -1,0 +1,44 @@
+[
+  {
+    "query": "holiday",
+    "expected_document": "Notice_03-09-2026_Holiday-Janmashtami_admin_b708442d",
+    "expected_title": "Declaration of Holiday on 4th September. 2026 on account of Janmashtami.\nInpursuanceoftheHolidayList,2026,issued by theDepartmentofPersonnel andTraining,Govt",
+    "target_type": "Holiday Notice"
+  },
+  {
+    "query": "janmashtami",
+    "expected_document": "Notice_03-09-2026_Holiday-Janmashtami_admin_b708442d",
+    "expected_title": "Declaration of Holiday on 4th September. 2026 on account of Janmashtami.\nInpursuanceoftheHolidayList,2026,issued by theDepartmentofPersonnel andTraining,Govt",
+    "target_type": "Holiday Notice"
+  },
+  {
+    "query": "hostel",
+    "expected_document": "Notice_01-09-2026_StudentCommittee-Hostel-Aug2026_admin_869f2d85",
+    "expected_title": "Based on the recommendation of selection committee of hostel affairs, the following students",
+    "target_type": "Hostel Notice"
+  },
+  {
+    "query": "scholarship",
+    "expected_document": "Notice_13-08-2026_Scholarship-BSMS-BTMT-Aug2026_admin_9b6086b1",
+    "expected_title": "All the students of 5th Year BS-MS & BT-MT with valid GATE score are instructed to apply\nfor MHRD(Now MOE) stipend online through the MIS Link at https://mis.nita.ac.in/mis",
+    "target_type": "Scholarship"
+  },
+  {
+    "query": "recruitment",
+    "expected_document": "Notice_08-07-2026_JRF-ANRF-ASaha-July2026_admin_194c29bb",
+    "expected_title": "JRF ANRF ASaha July2026",
+    "target_type": "Recruitment"
+  },
+  {
+    "query": "tender",
+    "expected_document": "Notice_06-08-2026_BidOpening-EstElec-Aug2026_admin_da30b81e",
+    "expected_title": "The Financial Bid/ Price Bid of technically qualified bidders for the work of\u201cAnnual Rate Contract",
+    "target_type": "Tender"
+  },
+  {
+    "query": "academic calendar",
+    "expected_document": "Notice_01-07-2026_Selected-PhDAdmission-July2026_admin_9c0a3d27",
+    "expected_title": "List of the candidates selected provisionally for admission in Ph.D programme for July\n- December 2026 academic session",
+    "target_type": "Academic Notice"
+  }
+]
