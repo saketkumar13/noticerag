@@ -29,7 +29,7 @@
 
 ## 📖 Overview
 
-The **NITA Campus Intelligence Assistant** is an end-to-end Retrieval-Augmented Generation (RAG) system built to parse, index, search, and answer complex campus-related queries from official National Institute of Technology Agartala notices, circulars, tenders, academic calendars, hostel updates, and recruitment advertisements.
+The **NITA Campus Intelligence Assistant** is an end-to-end Retrieval-Augmented Generation (RAG) system built to parse, index, search, and answer complex campus-related queries from official National Institute of Technology Agartala notices, circulars, tenders, academic calendars, hostel updates, and recruitment advertisements.The pipeline features built-in incremental synchronization. It detects new notices from the NITA portal without re-downloading or re-processing previously processed files.
 
 ### Core Capabilities:
 - **Intelligent Discovery**: Automatically crawls the ASP.NET notice board (`ViewAllNewsAndEvents.aspx`) and extracts binary PDFs via direct links and Azure blob storage.
